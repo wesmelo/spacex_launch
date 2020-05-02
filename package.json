@@ -1,0 +1,30 @@
+{
+  "name": "spacex_launch",
+  "version": "1.0.0",
+  "description": "study project to use React with GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesmelo/spacex_launch.git"
+  },
+  "keywords": [],
+  "author": "Wesley Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesmelo/spacex_launch/issues"
+  },
+  "homepage": "https://github.com/wesmelo/spacex_launch#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
